@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1afc017350003a949bd1421ba5ddb1bc, type: 3}
+  m_Name: StateD
+  m_EditorClassIdentifier: 
+  storyText: 'You get a closer look. You see a humanoid made of metal. The eyes are
+    dulled and it looks like it''s turned off.
+
+
+
+    Do you try to turn it on or
+    drag it to the main path?
+
+
+
+    What do you do?
+
+    1. Turn it on the android,
+    you want to know what it''s about.
+
+    2. Drag it to the main path, you need
+    to report your findings.'
+  nextStates:
+  - {fileID: 11400000, guid: f37e38027edd44b4797decb20fe6232b, type: 2}
+  - {fileID: 11400000, guid: 1b4c1746eb15fc841b8643cb064e85f9, type: 2}

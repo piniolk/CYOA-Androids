@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1afc017350003a949bd1421ba5ddb1bc, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  storyText: "Welcome to the game.\n\nIt's a choose your own adventure game. You
+    are Luckly. \n\nAt each stage, you are given options, press the corresponding
+    number key to choose action. \n\nPress q to quit. \nPress 1 to continue."
+  nextStates:
+  - {fileID: 11400000, guid: 30985570ce46f8b4590e9fdd69c23aaf, type: 2}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1afc017350003a949bd1421ba5ddb1bc, type: 3}
+  m_Name: StateB
+  m_EditorClassIdentifier: 
+  storyText: 'You step off the cobblestone floor and hop the short wall. You walk
+    closer and see rusted metal. You can''t get a good look at it from where you
+    are.
+
+
+    Do you walk closer to see what it is, stay where you are, or go back
+    to the path?
+
+
+    What do you do?
+
+    1. Walk closer, you need a better look.
+
+    2.
+    Keep your distance in case it''s an invader
+
+    3.Go back to the path, it''s
+    nothing to worry about.'
+  nextStates:
+  - {fileID: 11400000, guid: 5ece4ebbcd6dc8248840d860e098172f, type: 2}
+  - {fileID: 11400000, guid: 67cdc2637f501b84f845f7c3e4d1c6a7, type: 2}
+  - {fileID: 11400000, guid: 98a3b326a0fbd9a4984220b428003539, type: 2}
